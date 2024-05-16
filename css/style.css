@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --verde: #90a779;
+  }
+main{
+min-height: calc(100vh - 48px - 38.4px);
+}
+header{
+    background-color: var(--verde);
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+p{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+img{
+    width: 75vw;
+}
+footer{
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    line-height: 2.4rem;
+    margin-top: 1rem;
+}
+a{
+    font-size: 1.2rem;
+}
